@@ -14,7 +14,7 @@ How to use the image
 
 ----
 docker run \
---name grr-server
+--name grr-server \
 -e EXTERNAL_HOSTNAME="localhost" \
 -e ADMIN_PASSWORD="demo" \
 --ulimit nofile=1048576:1048576 \
